@@ -1,7 +1,12 @@
 .features {
     background-color: var(--primary-bkgcolor);
     padding-bottom: 0;
+    padding-top: 60px;
     
+    @media screen and (min-width: 1200px) {
+        padding-top: 94px;
+    }
+   
     
     &__subtitle {
     font-weight: 700;
@@ -11,6 +16,11 @@
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+    text-align: center;
+    }
+
     }
     
     &__desk {
@@ -20,28 +30,44 @@
     }
     
     &__list {
-    display: flex;
-    gap: 30px;
+    
+        @media screen and (min-width: 768px) {
+        display: flex;
+        gap: 30px;   
+        }
+
     }
     
     &__item {
-    width: 270px;
+    width: 450px;
+    padding-bottom: 30px;
+    margin: auto 0;
+
+    @media  screen and (min-width: 768px) {
+    width: 354px;   
+    }
+
+    @media screen and (min-width: 1200px) {
+    width: 270px;   
+    }
+    
     }
     
     &__icon {
-    display: flex;
+    // display: flex;
     border-radius: 4px;
     }
     
     &__icon-block {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
+    // display: flex;
+    // gap: 30px;
+    // align-items: center;
+    // justify-content: center;    
     background-color: var(--light-bgk);
     margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    
     }
 
 }
