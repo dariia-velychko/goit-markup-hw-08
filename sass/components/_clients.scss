@@ -1,0 +1,39 @@
+    
+    .clients {
+    background-color: var(--primary-bkgcolor);
+        
+        &__list {
+        display: flex;
+        gap: 30px;
+        justify-content: center;   
+        }
+
+        &__icon {
+        display: flex;
+        fill: currentColor;
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &__link {
+        color: var(--social-links);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--social-links);
+        border-radius: 4px;
+        width: 170px;
+        height: 92px;
+            
+        transition-property: color, border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        &__link:hover,
+        &__link:focus {
+        border: 1px solid var(--button-color-hero);
+        }
+
+}
