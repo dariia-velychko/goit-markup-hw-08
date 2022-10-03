@@ -7,16 +7,16 @@
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    // padding-top: 200px;
+    // padding-bottom: 200px;
     }
 
 .hero {
    
     &__container {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
+    // display: flex;
+    // text-align: center;
+    // flex-direction: column;
     }
 
     &__btn {
@@ -31,8 +31,8 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
     padding: 10px 32px;

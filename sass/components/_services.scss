@@ -1,5 +1,10 @@
 .services {
     background-color: var(--primary-bkgcolor);
+
+    @media screen and (max-width: 768px) {
+    display: none;
+    }
+
     }
     
     .services__list {
