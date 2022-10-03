@@ -1,16 +1,16 @@
 
 .footer {
 background-color: var(--secondary-bkgcolor);
-padding-top: 60px;
-padding-bottom: 60px;
+// padding-top: 60px;
+// padding-bottom: 60px;
     
     &__container {
-    display: flex;
-    align-items: baseline;    
+    // display: flex;
+    // align-items: baseline;    
     }
 
     &__address {
-    display: flex;
+    // display: flex;
     margin-bottom: 9px;    
     }
 
@@ -29,7 +29,7 @@ padding-bottom: 60px;
     }
 
     &__title {
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -85,9 +85,9 @@ padding-bottom: 60px;
     }
 
     &__send-block {
-    display: flex;
-    gap: 12px;
-    margin-top: 20px;
+    // display: flex;
+    // gap: 12px;
+    // margin-top: 20px;
     }
 
     &__send {
@@ -95,8 +95,8 @@ padding-bottom: 60px;
     }
 
     &__send-mail {
-    display: block;
-    margin-left: auto;
+    // display: block;
+    // margin-left: auto;
     }
 
 }
@@ -121,7 +121,7 @@ padding-bottom: 60px;
     }      
     
     .contact-mail {
-    margin-bottom: 9px;
+    // margin-bottom: 9px;
     }
         
     .social-links-block {
@@ -135,7 +135,7 @@ padding-bottom: 60px;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: var(--hero-color);
-    margin-bottom: 20px;
+    // margin-bottom: 20px;
     }  
            
 

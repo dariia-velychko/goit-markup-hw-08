@@ -2,8 +2,8 @@
     border-bottom: 1px solid #ECECEC;
     
     &__container {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     }
     
     &__group {
@@ -11,26 +11,26 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     }
 
     &__item {
     position: relative;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    // padding-top: 32px;
+    // padding-bottom: 32px;
     }
 
     &__link &__item {
-    display: block;
-    align-items: center;
+    // display: block;
+    // align-items: center;
     }
 
 }
     
     .site-nav {
-    display: flex;
-    align-items: center;
+    // display: flex;
+    // align-items: center;
     margin-right: auto;
     margin-left: 0;
     }   
@@ -38,7 +38,7 @@
     .current::after {
     position: absolute;
     content: "";
-    display: block;
+    // display: block;
     left: 0;
     bottom: -0.5%;
     
@@ -60,5 +60,5 @@
     }
 
     .header__group li {
-    margin-right: 50px
+    // margin-right: 50px
     }

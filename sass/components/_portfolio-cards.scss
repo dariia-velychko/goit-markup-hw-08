@@ -14,7 +14,7 @@ background-color: var(--hero-color);
     } 
     
     &__link {
-    display: block;
+    // display: block;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -49,13 +49,13 @@ background-color: var(--hero-color);
     }
     
     .works {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+    // display: flex;
+    // flex-wrap: wrap;
+    // gap: 30px;
     }
     
     .work-list {
-    width: 370px;
+    // width: 370px;
     }
     
     .cards-overlay {

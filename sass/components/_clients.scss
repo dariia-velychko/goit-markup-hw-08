@@ -2,14 +2,23 @@
     .clients {
     background-color: var(--primary-bkgcolor);
         
-        // &__list {
-        // display: flex;
-        // gap: 30px;
-        // justify-content: center;   
-        // }
+        &__list {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+            
+        @media screen and (min-width: 1200px) {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        }
+           
+        }
 
         &__icon {
-        // display: flex;
+        
+        display: flex;
         fill: currentColor;
         transition-property: color;
         transition-duration: 250ms;
@@ -21,10 +30,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: 210px;
         border: 1px solid var(--social-links);
         border-radius: 4px;
-        // width: 170px;
-        // height: 92px;
+
+        @media screen and (min-width: 768px) {
+        width: 226px;
+        }
+
+        @media screen and (min-width: 1200px) {
+        width: 170px;
+        height: 92px;
+        }
+        
             
         transition-property: color, border;
         transition-duration: 250ms;
