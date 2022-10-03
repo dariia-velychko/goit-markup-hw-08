@@ -530,19 +530,7 @@ img {
 .clients {
   background-color: var(--primary-bkgcolor);
 }
-.clients__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 30px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
 .clients__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   fill: currentColor;
   -webkit-transition-property: color;
   transition-property: color;
@@ -564,8 +552,6 @@ img {
           align-items: center;
   border: 1px solid var(--social-links);
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
   -webkit-transition-property: color, border;
   transition-property: color, border;
   -webkit-transition-duration: 250ms;

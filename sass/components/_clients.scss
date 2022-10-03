@@ -2,14 +2,14 @@
     .clients {
     background-color: var(--primary-bkgcolor);
         
-        &__list {
-        display: flex;
-        gap: 30px;
-        justify-content: center;   
-        }
+        // &__list {
+        // display: flex;
+        // gap: 30px;
+        // justify-content: center;   
+        // }
 
         &__icon {
-        display: flex;
+        // display: flex;
         fill: currentColor;
         transition-property: color;
         transition-duration: 250ms;
@@ -23,8 +23,8 @@
         align-items: center;
         border: 1px solid var(--social-links);
         border-radius: 4px;
-        width: 170px;
-        height: 92px;
+        // width: 170px;
+        // height: 92px;
             
         transition-property: color, border;
         transition-duration: 250ms;
