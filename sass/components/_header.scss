@@ -62,7 +62,7 @@
     content: "";
     display: block;
     left: 0;
-    bottom: -0.5%;
+    bottom: -2%;
     
     
     width: 100%;
@@ -70,6 +70,10 @@
     
     background-color: var(--link-active);
     border-radius: 2px;
+
+    @media screen and (min-width:1200px) {
+    bottom: -0.5%;  
+    }
     }
     
     .active.current {
