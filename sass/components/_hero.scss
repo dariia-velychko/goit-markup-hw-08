@@ -20,9 +20,9 @@
 .hero {
    
     &__container {
-    // display: flex;
-    // text-align: center;
-    // flex-direction: column;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     }
 
     &__btn {
@@ -41,11 +41,16 @@
     // align-items: center;
     letter-spacing: 0.06em;
     border-radius: 4px;
-    padding: 10px 32px;
-    min-width: 216px;
+    min-width: 200px;
+    padding: 10px 24px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width:1200px) {
+    padding: 10px 32px;
+    min-width: 216px;    
+    }
     }
 
     &__btn--active:active {
