@@ -1168,8 +1168,13 @@ input::placeholder {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
+  line-height: 1.5;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .register-form__title {
+    line-height: 1.15;
+  }
 }
 .register-form__group {
   margin-bottom: 20px;
@@ -1219,10 +1224,16 @@ input::placeholder {
 }
 .register-form__desc {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+@media screen and (min-width: 1200px) {
+  .register-form__desc {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 .register-form__heading {
   display: block;
