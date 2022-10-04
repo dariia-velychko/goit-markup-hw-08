@@ -1,17 +1,32 @@
 
 .footer {
 background-color: var(--secondary-bkgcolor);
-// padding-top: 60px;
-// padding-bottom: 60px;
+padding-top: 60px;
+padding-bottom: 60px;
     
     &__container {
-    // display: flex;
+
+    @media screen and (min-width:1200px) {
+    display: flex;    
+    align-items: baseline;   
+    }
+    // display: flex;    
     // align-items: baseline;    
     }
 
     &__address {
+    
     // display: flex;
-    margin-bottom: 9px;    
+    margin-bottom: 9px;
+    @media screen and (min-width:1200px) {
+    display: flex;    
+    }
+        
+    }
+
+    &__address-block {
+    
+    padding-bottom: 60px;
     }
 
     &__sl {
@@ -29,7 +44,7 @@ background-color: var(--secondary-bkgcolor);
     }
 
     &__title {
-    // margin-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -40,7 +55,8 @@ background-color: var(--secondary-bkgcolor);
 
     &__input {
     padding-left: 16px;
-    width: 358px;
+    max-width: 450px;
+    // width: 358px;
     height: 50px;
     background-color: transparent;
     color: var(--light-bgk);
@@ -50,6 +66,11 @@ background-color: var(--secondary-bkgcolor);
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 20px;
+    
+    @media screen and (min-width: 1200px) {
+    width: 358px;    
+    }
     }
 
     &__input:focus,
@@ -87,7 +108,12 @@ background-color: var(--secondary-bkgcolor);
     &__send-block {
     // display: flex;
     // gap: 12px;
-    // margin-top: 20px;
+    margin-top: 20px;
+
+    @media screen and (min-width:1200px) {
+    display: flex;
+    gap: 12px;    
+    }
     }
 
     &__send {
@@ -97,6 +123,11 @@ background-color: var(--secondary-bkgcolor);
     &__send-mail {
     // display: block;
     // margin-left: auto;
+
+    @media screen and (min-width: 1200px) {
+    display: block;
+    margin-left: auto;  
+    }
     }
 
 }
@@ -118,14 +149,27 @@ background-color: var(--secondary-bkgcolor);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;   
+    }
     }      
     
     .contact-mail {
-    // margin-bottom: 9px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;   
+    }
+    // // margin-bottom: 9px;
     }
         
     .social-links-block {
-    margin-left: 70px;
+    // margin-left: 70px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+    margin-left: 70px;    
+    }
     }  
         
     .social-links-title {
@@ -135,7 +179,7 @@ background-color: var(--secondary-bkgcolor);
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color: var(--hero-color);
-    // margin-bottom: 20px;
+    margin-bottom: 20px;
     }  
            
 
