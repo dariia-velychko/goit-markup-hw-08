@@ -39,16 +39,25 @@ height: auto;
 
 .main-title {
 font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
+font-size: 26px;
+line-height: 1.61;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--hero-color);
-margin-top: 0;
-margin-bottom: 30px;
-width: 696px;
+// margin-top: 0;
+// margin-bottom: 30px;
+// width: 696px;
 margin-left: auto;
 margin-right: auto;
+
+
+
+@media screen and (min-width: 1200px) {
+
+font-size: 44px;
+line-height: 1.36;
+}
+
 }
 
 .section-title {
@@ -70,16 +79,26 @@ margin-bottom: 50px;
 text-decoration: none;
 
     &__contact {
+    @media screen and (min-width: 768px){
+    display: flex;
+    gap: 8px;    
+    }
+
+    @media screen and (min-width: 1200px) {
     display: flex;
     gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;    
+    }
+    
     align-items: center;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--secondary-color);
     text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px; 
+    // padding-top: 32px;
+    // padding-bottom: 32px; 
     }
 
     &:focus,    
