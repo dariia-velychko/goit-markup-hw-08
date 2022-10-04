@@ -76,6 +76,12 @@ ul {
 .section {
   outline: 2px solid green;
   width: 100%;
+  padding: 60px 0;
+}
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 94px 0;
+  }
 }
 
 img {
@@ -113,12 +119,6 @@ img {
   line-height: 1.17;
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 60px;
-}
-@media screen and (min-width: 1200px) {
-  .section-title {
-    margin-bottom: 50px;
-  }
 }
 
 .link {
@@ -412,13 +412,6 @@ img {
 
 .features {
   background-color: var(--primary-bkgcolor);
-  padding-bottom: 0;
-  padding-top: 60px;
-}
-@media screen and (min-width: 1200px) {
-  .features {
-    padding-top: 94px;
-  }
 }
 .features__subtitle {
   font-weight: 700;
@@ -494,6 +487,7 @@ img {
 
 .services {
   background-color: var(--primary-bkgcolor);
+  padding-top: 0;
 }
 @media screen and (max-width: 768px) {
   .services {
@@ -674,6 +668,7 @@ img {
   }
 }
 .clients__icon {
+  max-width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

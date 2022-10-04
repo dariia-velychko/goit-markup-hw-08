@@ -28,6 +28,11 @@ max-width: 480px;
 .section {
 outline: 2px solid green;
 width: 100%;
+padding: 60px 0;
+
+@media screen and (min-width: 1200px) {
+padding: 94px 0;    
+}
 
 }
 
@@ -68,13 +73,6 @@ font-size: 36px;
 line-height: 1.17;
 text-align: center;
 padding-bottom: 30px;
-padding-top: 60px;
-
-@media screen and (min-width: 1200px) {
-margin-bottom: 50px;
-}
-
-
 }
 
 .link {

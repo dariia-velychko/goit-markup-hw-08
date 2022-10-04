@@ -1,12 +1,5 @@
 .features {
-    background-color: var(--primary-bkgcolor);
-    padding-bottom: 0;
-    padding-top: 60px;
-    
-    @media screen and (min-width: 1200px) {
-        padding-top: 94px;
-    }
-   
+    background-color: var(--primary-bkgcolor);     
     
     &__subtitle {
     font-weight: 700;
