@@ -21,7 +21,7 @@
         }
 
         &__icon {
-        // max-width: 50%;
+        max-width: 50%;
         display: flex;
         fill: currentColor;
         transition-property: color;
@@ -41,6 +41,9 @@
         max-width: 210px;
         border: 1px solid var(--social-links);
         border-radius: 4px;
+        transition-property: color, border;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
         @media screen and (min-width: 768px) {
         width: 226px;
@@ -52,9 +55,9 @@
         }
         
             
-        transition-property: color, border;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        // transition-property: color, border;
+        // transition-duration: 250ms;
+        // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         &__link:hover,
