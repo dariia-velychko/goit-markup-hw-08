@@ -4,10 +4,14 @@ background-color: var(--light-bgk);
     &__list {
         
         
+        // margin: 0 auto;
+        // margin-right: 0;
+        
         @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;        
         gap: 30px;
+        justify-content: center;
         }
 
         @media screen and (min-width: 1200px) {
