@@ -20,6 +20,8 @@ background-color: var(--hero-color);
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+
+
     @media screen and (min-width: 1200px) {
     display: block;    
     }
@@ -67,6 +69,12 @@ background-color: var(--hero-color);
     justify-content: center;    
     }
 
+    @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;    
+    }
+
     @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
@@ -75,14 +83,20 @@ background-color: var(--hero-color);
     }
     
     .work-list {
-    @media screen and (max-width: 767px) {
-    margin-bottom: 30px;    
+        @media screen and (max-width: 767px) {
+        margin-bottom: 30px;    
+        }
+        
+        @media screen and (min-width: 768px) {
+        flex-basis: calc((100% - 30px) / 2);   
+        }
+        
+        @media screen and (min-width: 1200px) {
+        width: 370px;    
+        }  
     }
 
-    @media screen and (min-width: 1200px) {
-    width: 370px;    
-    }
-    }
+    
     
     .cards-overlay {
     position: relative;
