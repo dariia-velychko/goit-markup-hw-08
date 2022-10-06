@@ -3,6 +3,7 @@ background-color: var(--hero-color);
 }
 
 .portfolio {
+    // display: flex;
 
     &__cards {
     background: #FFFFFF;
@@ -53,9 +54,12 @@ background-color: var(--hero-color);
     }
     
     .works {
-    // display: flex;
-    // flex-wrap: wrap;
-    // gap: 30px;
+    @media screen and (max-width: 678px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    }
 
     @media screen and (min-width: 1200px) {
     display: flex;
@@ -65,8 +69,7 @@ background-color: var(--hero-color);
     }
     
     .work-list {
-    // width: 370px;
-
+    
     @media screen and (min-width: 1200px) {
     width: 370px;    
     }
