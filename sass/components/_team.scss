@@ -2,7 +2,7 @@
 background-color: var(--light-bgk);
 
     &__list {
-        @media screen and (max-width: 678px) {
+        @media screen and (max-width: 767px) {
         display: flex;
         flex-direction: column;
         align-items: center;
