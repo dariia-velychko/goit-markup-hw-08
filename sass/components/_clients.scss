@@ -31,6 +31,7 @@
         &__link {
         color: var(--social-links);
         display: flex;
+        gap: 30px;
         justify-content: center;
         flex-basis: calc((100% - 30px) / 2);        
         align-items: center;

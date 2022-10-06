@@ -12,6 +12,7 @@ background-color: var(--hero-color);
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     padding: 20px 24px 20px 24px;
+    // flex-basis: calc((100% - 30px) / 3);
     } 
     
     &__link {
@@ -23,7 +24,9 @@ background-color: var(--hero-color);
 
 
     @media screen and (min-width: 1200px) {
-    display: block;    
+    display: flex;
+    flex-direction: column;
+    // flex-basis: calc((100% - 30px) / 3);    
     }
     }
 
@@ -42,6 +45,10 @@ background-color: var(--hero-color);
         @media screen and (max-width: 767px) {
         width: 100%;    
         }
+    }
+
+    &__cards {
+    flex-grow: 1;
     }
 }   
     
@@ -92,7 +99,9 @@ background-color: var(--hero-color);
         }
         
         @media screen and (min-width: 1200px) {
-        width: 370px;    
+        // width: 370px;
+        display: flex;
+        flex-basis: calc((100% - 30px) / 3);    
         }  
     }
 
