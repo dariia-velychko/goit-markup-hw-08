@@ -5,19 +5,28 @@ padding-top: 60px;
 padding-bottom: 60px;
     
     &__container {
+    @media screen and (max-width: 480px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    }
 
-    @media screen and (min-width:1200px) {
+
+    @media screen and (min-width: 1200px) {
     display: flex;    
     align-items: baseline;   
     }
-    // display: flex;    
-    // align-items: baseline;    
+        
     }
 
     &__address {
-    
-    // display: flex;
     margin-bottom: 9px;
+
+    @media screen and (min-width: 768px) {
+    display: flex;    
+    }
+
     @media screen and (min-width:1200px) {
     display: flex;    
     }
@@ -53,9 +62,7 @@ padding-bottom: 60px;
     }
 
     &__input {
-    padding-left: 16px;
-    // max-width: 450px;
-    // width: 358px;
+    padding-left: 16px;    
     width: 100%;
     height: 50px;
     background-color: transparent;
@@ -67,6 +74,8 @@ padding-bottom: 60px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 20px;
+
+    
     
     @media screen and (min-width: 1200px) {
     width: 358px;    
@@ -106,8 +115,6 @@ padding-bottom: 60px;
     }
 
     &__send-block {
-    // display: flex;
-    // gap: 12px;
     margin-top: 20px;
 
     @media screen and (min-width:1200px) {
@@ -121,8 +128,12 @@ padding-bottom: 60px;
     }
 
     &__send-mail {
-    // display: block;
-    // margin-left: auto;
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;   
+    }
 
     @media screen and (min-width: 1200px) {
     display: block;
@@ -160,11 +171,10 @@ padding-bottom: 60px;
     @media screen and (min-width: 1200px) {
         margin-bottom: 9px;   
     }
-    // // margin-bottom: 9px;
+    
     }
         
-    .social-links-block {
-    // margin-left: 70px;
+    .social-links-block {    
     padding-bottom: 60px;
 
     @media screen and (min-width: 1200px) {
@@ -181,7 +191,19 @@ padding-bottom: 60px;
     color: var(--hero-color);
     margin-bottom: 20px;
     }  
-           
+            
+.tablet-footer-block {
 
-    
+
+@media screen and (min-width: 1200px) {
+display: flex;    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 165px;    
+}
+}
     
