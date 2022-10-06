@@ -28,8 +28,7 @@ background-color: var(--light-bgk);
     &__item {
     max-width: 450px;
     
-    @media screen and (max-width: 767px){
-    // width: 100%;
+    @media screen and (max-width: 767px) {    
     margin-bottom: 30px;       
     }
 
@@ -65,7 +64,6 @@ background-color: var(--light-bgk);
 }
    
     .card {
-    // width: 100%
     padding-top: 30px;
     padding-bottom: 30px;
     }
