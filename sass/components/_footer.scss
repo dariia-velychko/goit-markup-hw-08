@@ -24,8 +24,7 @@ padding-bottom: 60px;
         
     }
 
-    &__address-block {
-    
+    &__address-block {    
     padding-bottom: 60px;
     }
 
@@ -55,8 +54,9 @@ padding-bottom: 60px;
 
     &__input {
     padding-left: 16px;
-    max-width: 450px;
+    // max-width: 450px;
     // width: 358px;
+    width: 100%;
     height: 50px;
     background-color: transparent;
     color: var(--light-bgk);
