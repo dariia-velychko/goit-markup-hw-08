@@ -52,7 +52,6 @@ padding-bottom: 60px;
     }
 
     &__title {
-    // margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -133,10 +132,10 @@ padding-bottom: 60px;
 
     &__send-mail {
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     //  width: 100%;   
     }
 
