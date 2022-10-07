@@ -1617,6 +1617,11 @@ input::placeholder {
   letter-spacing: 0.02em;
   color: var(--secondary-color);
 }
+@media screen and (max-width: 479px) {
+  .menu-tel {
+    font-size: 26px;
+  }
+}
 
 .menu-mail {
   font-weight: 500;
@@ -1631,6 +1636,12 @@ input::placeholder {
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+  padding: 0 10px;
   color: var(--link-active);
   border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+@media screen and (max-width: 479px) {
+  .menu-socials {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=main.css.map */
